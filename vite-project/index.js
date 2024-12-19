@@ -8,7 +8,7 @@ document.getElementById("btn").addEventListener("click", function () {
       console.log(imageUrl);
 
       document.getElementById(
-        "container"
-      ).style.backgroundImage = `url("${imageUrl}")`;
+        "body"
+      ).style.backgroundImage = `url(${imageUrl})`;
     });
 });
