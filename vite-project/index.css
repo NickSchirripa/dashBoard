@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    color: whitesmoke;
 }
 
 body {
@@ -13,15 +14,17 @@ body {
 }
 
 #container{
+    height:100vh;
     display: flex;
 
 flex-direction: column;
-justify-content: center;
-align-items: center;
+justify-content: space-between;
+}
 
-
-    
-   
+#CryptoAndWeather{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #localTime{
@@ -47,7 +50,12 @@ img {
 #artist  p{
     font-weight: bold;
     font-size: 4vh;
+    text-shadow: 1px 1px 2px black
 }
 h1{
     color: blue;
+}
+
+#localTime{
+    text-align: center;
 }
