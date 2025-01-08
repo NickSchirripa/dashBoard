@@ -12,9 +12,26 @@ body {
     background-size: cover;
 }
 
+#container{
+    display: flex;
+
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+    
+   
+}
+
+#localTime{
+    font-weight: bold;
+    font-size: 4vw;
+}
+
 button{
-    width:500px;
-    height: 500px;
+    width:150px;
+    height: 150px;
     color: whitesmoke;
     font-size: 3em;
     background-color: blue;
@@ -27,6 +44,10 @@ img {
     height: auto;
   }
 
+#artist  p{
+    font-weight: bold;
+    font-size: 4vh;
+}
 h1{
     color: blue;
 }
